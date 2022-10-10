@@ -1,0 +1,80 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    background-color: #00000017;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+main {
+    background-color: #deecec;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.teacher-container {
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+.teacher-img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.teacher-name {
+    font-weight: bolder;
+}
+
+.teacher-price {
+    font-weight: 900;
+    color: #2fd12f;
+}
+
+.teacher-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.teacher-contract {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher-contract-hours {
+    width: 30%;
+    background-color: #fffafa;
+    outline: none;
+    border: 1px solid #c2c2c2;
+    padding: 30px;
+}
+
+.teacher-contract-button {
+    width: 45%;
+    color: #142020;
+    background-color: #2fd12f;
+    transition: background-color 0.5s;
+}
+
+.teacher-contract-button:hover {
+    background-color: #24a024;
+}
